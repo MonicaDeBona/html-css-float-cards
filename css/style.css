@@ -11,13 +11,14 @@
 .container{
     width: 70%;
     margin: auto;
-    height: 500px;
+    background-color: #53adc9;
 }
 
 h1{
     padding-top: 100px;
     font-size: 6rem;
     text-align: center;
+    color: #e53170;
 }
 
 #sub-title{
@@ -30,4 +31,13 @@ h1{
     margin-top: 100px;
     height: 1000px;
     background-color: gray;
+}
+
+.float-left{
+    margin: 10px;
+    width: 500px;
+    height: 250px;
+    background-color: #dfdad3;
+    border: 1px solid black;
+    float: left;
 }

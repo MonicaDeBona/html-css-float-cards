@@ -7,3 +7,15 @@
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
 }
+
+.container{
+    width: 70%;
+    margin: auto;
+    height: 500px;
+}
+
+h1{
+    padding-top: 100px;
+    font-size: 6rem;
+    text-align: center;
+}

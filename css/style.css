@@ -17,10 +17,15 @@ h1{
 
 h2{
     font-size: 3rem;
+    padding-top: 10px;
 }
 
 p{
     font-size: 2rem;
+}
+
+.text{
+    padding: 10px 0px 10px 220px;
 }
 
 #sub-title{
@@ -40,20 +45,19 @@ p{
 }
 
 img{
-    width: 220px;
+    width: 200px;
     float: left;
 }
 
 .float-left{
-    margin: 10px;
-    background-color: #dfdad3;
+    margin: 15px;
+    background-color: #53adc9;
     float: left;
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 30px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 .container{
     width: 70%;
     margin: auto;
-    background-color: #53adc9;
 }
 

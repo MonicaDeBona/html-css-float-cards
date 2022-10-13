@@ -15,6 +15,14 @@ h1{
     color: #e53170;
 }
 
+h2{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
 #sub-title{
     padding-top: 100px;
     font-size: 3rem;
@@ -24,20 +32,23 @@ h1{
 .img-container::after{
     content: "";
     display: table;
-    clear: both;
+    clear: both;;
 }
 
 .img-container{
     margin-top: 100px;
-    background-color: gray;
+}
+
+img{
+    width: 220px;
+    float: left;
 }
 
 .float-left{
-    height: 250px;
+    margin: 10px;
     background-color: #dfdad3;
-    border: 1px solid black;
     float: left;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
 }
 
 .container{
@@ -45,3 +56,4 @@ h1{
     margin: auto;
     background-color: #53adc9;
 }
+
